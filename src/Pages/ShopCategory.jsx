@@ -7,7 +7,6 @@ import Item from '../Components/Item/Item'
 const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext);
    
-const categories = [...new Set(all_product.map(item => item.category.toLowerCase()))];
 
 
   return (
